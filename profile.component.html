@@ -1,0 +1,59 @@
+<app-navbar></app-navbar>
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>{{ app_name }}</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Beállítások</h1><hr>
+      <button class="btn btn-secondary ms-0 mb-5">Profil</button>
+      <button class="btn btn-secondary active mb-5">Szerverek</button>
+      <div class="myServers mb-5 pb-5">
+        <div class="card adCard mx-2" style="width: 18rem;">
+          <div class="serverImagesBox m-2">
+            <img class="topImg" style="height: 120px" src="https://st3.depositphotos.com/1064024/14272/i/450/depositphotos_142722813-stock-photo-heart-love-tree.jpg" class="card-img-top" alt="...">
+            <img src="https://www.jarkoricsi.hu/assets/img/avataaars.svg" class="serverIcon" alt="">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Server 1</h5>
+            <p class="card-text text-secondary" style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro deserunt dolore nostrum temporibus iste.</p>
+            <p class="card-footer text-end p-0 m-0"><a href class="bi bi-pencil-fill text-white"></a></p>
+          </div>
+        </div>
+        <div class="card adCard mx-2" style="width: 18rem;">
+          <div class="serverImagesBox m-2">
+            <img class="topImg" style="height: 120px" src="https://st3.depositphotos.com/1064024/14272/i/450/depositphotos_142722813-stock-photo-heart-love-tree.jpg" class="card-img-top" alt="...">
+            <img src="https://www.jarkoricsi.hu/assets/img/avataaars.svg" class="serverIcon" alt="">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Server 1</h5>
+            <p class="card-text text-secondary" style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro deserunt dolore nostrum temporibus iste.</p>
+            <p class="card-footer text-end p-0 m-0"><a href class="bi bi-pencil-fill text-white"></a></p>
+          </div>
+        </div>
+        <div class="card mx-2 createNewCard" style="width: 18rem;">
+          <div class="serverImagesBox m-2">
+            <img class="topImg" style="height: 120px" src="https://st3.depositphotos.com/1064024/14272/i/450/depositphotos_142722813-stock-photo-heart-love-tree.jpg" class="card-img-top" alt="...">
+            <img src="https://www.jarkoricsi.hu/assets/img/avataaars.svg" class="serverIcon" alt="">
+          </div>
+          <div class="card-body">
+            <div class="overlay"></div>
+            <h5 class="card-title text-white">Hírdetés</h5>
+            <p class="card-text text-secondary" style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro deserunt dolore nostrum temporibus iste.</p>
+            <p class="card-footer text-end p-0 m-0">Több</p>
+            <p class="createNewIcon d-flex align-items-center justify-content-center">
+              <i class="bi bi-plus-lg fs-1 text-white"></i>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </body>
+</html>
